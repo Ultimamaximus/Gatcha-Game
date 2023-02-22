@@ -49,7 +49,8 @@ function gatchaRoll() {
     return finalRoll;
   } else if (roll.includes("Legendary")) {
     const newRatingRoll = Math.floor(Math.random() * Rating.length);
-    let newRoll = " " + Rating[newRatingRoll] + " " + Category[categoryRoll];
+    const newCategoryRoll = Math.floor(Math.random() * Category.length);
+    let newRoll = " " + Rating[newRatingRoll] + " " + Category[newCategoryRoll];
     let finalRoll = [roll, newRoll];
     return finalRoll;
   } else {
