@@ -51,6 +51,9 @@ function gatchaRoll() {
     const newRatingRoll = Math.floor(Math.random() * Rating.length);
     const newCategoryRoll = Math.floor(Math.random() * Category.length);
     let newRoll = " " + Rating[newRatingRoll] + " " + Category[newCategoryRoll];
+    if (newRoll === "Legendary Advanced Technology") {
+      newRoll === "Very Rare Advanced Technology"
+    }
     let finalRoll = [roll, newRoll];
     return finalRoll;
   } else {
