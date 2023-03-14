@@ -1,4 +1,6 @@
 
+
+
 /* Include the padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
@@ -58,6 +60,7 @@
     font-size: 16px;
     border-top-left-radius: 25px 50%;
     border-bottom-left-radius: 25px 50%;
+    outline: 0px;
   }
   
   /* Styles the "Add" button */
